@@ -1,0 +1,3 @@
+/Users/fiona/CLionProjects/apason/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/fiona/CLionProjects/apason/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/fiona/CLionProjects/apason/cmake-build-debug/CMakeFiles/apason.dir
