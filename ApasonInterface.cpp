@@ -24,8 +24,8 @@ bool ApasonInterface::isActive(){
     return active;
 }
 
-bool function (){
-   cout << "Does it make sense to use this keyboard without a mouse & monitor? \n";
-   cout << "Well... Not really \n";
-
-}
+// bool function (){
+//   cout << "Does it make sense to use this keyboard without a mouse & monitor? \n";
+//   cout << "Well... Not really \n";
+//
+//}

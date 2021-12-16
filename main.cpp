@@ -24,11 +24,15 @@ int run(ApasonInterface& apason) {
 }
 
 int main(int argc, char* argv[]) {
+    if (argc < 3) {
+        cout << "Captan, my captain. Gimme some args. \n";
+        return -1;
+    }
 
     string apason_type = argv[1];
 
     if (apason_type == "mock"){
-    cout << "hello? \n";
+
         MockApason apason = MockApason(apason_type);
         return run(apason);
     } else {
