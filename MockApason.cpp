@@ -59,7 +59,7 @@ void MockApason::start() {
 
     }
 
-    cout << "Quitting SembrOWA…" << endl;
+    cout << "Quitting SembrOWA..." << endl;
 
     //Code to shut down SembrOWA
 

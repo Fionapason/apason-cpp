@@ -8,128 +8,132 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="/Users/fiona/CLionProjects/apason/cmake-build-debug"/>
+				<Option working_dir="C:/Users/meier/CLionProjects/apason/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/fiona/CLionProjects/apason/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/fiona/CLionProjects/apason/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Users/fiona/CLionProjects/apason/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/fiona/CLionProjects/apason/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/Users/meier/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/213.5744.254/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/meier/CLionProjects/apason/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="C:/Users/meier/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/213.5744.254/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/meier/CLionProjects/apason/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Users/meier/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/213.5744.254/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/meier/CLionProjects/apason/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Users/meier/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/213.5744.254/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/meier/CLionProjects/apason/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="/Users/fiona/CLionProjects/apason/cmake-build-debug"/>
+				<Option working_dir="C:/Users/meier/CLionProjects/apason/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/fiona/CLionProjects/apason/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/fiona/CLionProjects/apason/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Users/fiona/CLionProjects/apason/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/fiona/CLionProjects/apason/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="edit_cache">
-				<Option working_dir="/Users/fiona/CLionProjects/apason/cmake-build-debug"/>
-				<Option type="4"/>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/fiona/CLionProjects/apason/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/fiona/CLionProjects/apason/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Users/fiona/CLionProjects/apason/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/fiona/CLionProjects/apason/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/Users/meier/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/213.5744.254/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/meier/CLionProjects/apason/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="C:/Users/meier/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/213.5744.254/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/meier/CLionProjects/apason/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Users/meier/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/213.5744.254/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/meier/CLionProjects/apason/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Users/meier/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/213.5744.254/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/meier/CLionProjects/apason/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="apason">
-				<Option output="/Users/fiona/CLionProjects/apason/cmake-build-debug/apason" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/fiona/CLionProjects/apason/cmake-build-debug"/>
+				<Option output="C:/Users/meier/CLionProjects/apason/cmake-build-debug/apason.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/meier/CLionProjects/apason/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.0/include"/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
-					<Add directory="/System/Library/Frameworks"/>
-					<Add directory="/Library/Frameworks"/>
+					<Add directory="C:/Users/meier/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/213.5744.254/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++"/>
+					<Add directory="C:/Users/meier/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/213.5744.254/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Users/meier/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/213.5744.254/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward"/>
+					<Add directory="C:/Users/meier/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/213.5744.254/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include"/>
+					<Add directory="C:/Users/meier/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/213.5744.254/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include"/>
+					<Add directory="C:/Users/meier/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/213.5744.254/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"/>
+					<Add directory="C:/Users/meier/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/213.5744.254/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/fiona/CLionProjects/apason/cmake-build-debug/Makefile&quot;  VERBOSE=1 apason"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/fiona/CLionProjects/apason/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Users/fiona/CLionProjects/apason/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/fiona/CLionProjects/apason/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/Users/meier/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/213.5744.254/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/meier/CLionProjects/apason/cmake-build-debug/Makefile&quot;  VERBOSE=1 apason"/>
+					<CompileFile command="C:/Users/meier/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/213.5744.254/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/meier/CLionProjects/apason/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Users/meier/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/213.5744.254/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/meier/CLionProjects/apason/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Users/meier/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/213.5744.254/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/meier/CLionProjects/apason/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="apason/fast">
-				<Option output="/Users/fiona/CLionProjects/apason/cmake-build-debug/apason" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/fiona/CLionProjects/apason/cmake-build-debug"/>
+				<Option output="C:/Users/meier/CLionProjects/apason/cmake-build-debug/apason.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/meier/CLionProjects/apason/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.0/include"/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
-					<Add directory="/System/Library/Frameworks"/>
-					<Add directory="/Library/Frameworks"/>
+					<Add directory="C:/Users/meier/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/213.5744.254/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++"/>
+					<Add directory="C:/Users/meier/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/213.5744.254/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Users/meier/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/213.5744.254/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward"/>
+					<Add directory="C:/Users/meier/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/213.5744.254/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include"/>
+					<Add directory="C:/Users/meier/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/213.5744.254/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include"/>
+					<Add directory="C:/Users/meier/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/213.5744.254/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"/>
+					<Add directory="C:/Users/meier/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/213.5744.254/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/fiona/CLionProjects/apason/cmake-build-debug/Makefile&quot;  VERBOSE=1 apason/fast"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/fiona/CLionProjects/apason/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Users/fiona/CLionProjects/apason/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/fiona/CLionProjects/apason/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/Users/meier/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/213.5744.254/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/meier/CLionProjects/apason/cmake-build-debug/Makefile&quot;  VERBOSE=1 apason/fast"/>
+					<CompileFile command="C:/Users/meier/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/213.5744.254/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/meier/CLionProjects/apason/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Users/meier/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/213.5744.254/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/meier/CLionProjects/apason/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Users/meier/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/213.5744.254/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/meier/CLionProjects/apason/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="C:/Users/meier/CLionProjects/apason/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/Users/meier/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/213.5744.254/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/meier/CLionProjects/apason/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="C:/Users/meier/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/213.5744.254/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/meier/CLionProjects/apason/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Users/meier/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/213.5744.254/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/meier/CLionProjects/apason/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Users/meier/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/213.5744.254/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/meier/CLionProjects/apason/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/Users/fiona/CLionProjects/apason/ApasonInterface.cpp">
+		<Unit filename="C:/Users/meier/CLionProjects/apason/ApasonInterface.cpp">
 			<Option target="apason"/>
 		</Unit>
-		<Unit filename="/Users/fiona/CLionProjects/apason/ApasonInterface.h">
+		<Unit filename="C:/Users/meier/CLionProjects/apason/ApasonInterface.h">
 			<Option target="apason"/>
 		</Unit>
-		<Unit filename="/Users/fiona/CLionProjects/apason/Check_Sensor_Functions.cpp">
+		<Unit filename="C:/Users/meier/CLionProjects/apason/Check_Sensor_Functions.cpp">
 			<Option target="apason"/>
 		</Unit>
-		<Unit filename="/Users/fiona/CLionProjects/apason/Check_Sensor_Functions.h">
+		<Unit filename="C:/Users/meier/CLionProjects/apason/Check_Sensor_Functions.h">
 			<Option target="apason"/>
 		</Unit>
-		<Unit filename="/Users/fiona/CLionProjects/apason/MockApason.cpp">
+		<Unit filename="C:/Users/meier/CLionProjects/apason/MockApason.cpp">
 			<Option target="apason"/>
 		</Unit>
-		<Unit filename="/Users/fiona/CLionProjects/apason/MockApason.h">
+		<Unit filename="C:/Users/meier/CLionProjects/apason/MockApason.h">
 			<Option target="apason"/>
 		</Unit>
-		<Unit filename="/Users/fiona/CLionProjects/apason/RealApason.cpp">
+		<Unit filename="C:/Users/meier/CLionProjects/apason/RealApason.cpp">
 			<Option target="apason"/>
 		</Unit>
-		<Unit filename="/Users/fiona/CLionProjects/apason/RealApason.h">
+		<Unit filename="C:/Users/meier/CLionProjects/apason/RealApason.h">
 			<Option target="apason"/>
 		</Unit>
-		<Unit filename="/Users/fiona/CLionProjects/apason/Sensors/ElectronicValve.cpp">
+		<Unit filename="C:/Users/meier/CLionProjects/apason/Sensors/ElectronicValve.cpp">
 			<Option target="apason"/>
 		</Unit>
-		<Unit filename="/Users/fiona/CLionProjects/apason/Sensors/ElectronicValve.h">
+		<Unit filename="C:/Users/meier/CLionProjects/apason/Sensors/ElectronicValve.h">
 			<Option target="apason"/>
 		</Unit>
-		<Unit filename="/Users/fiona/CLionProjects/apason/Sensors/MassFlow.cpp">
+		<Unit filename="C:/Users/meier/CLionProjects/apason/Sensors/MassFlow.cpp">
 			<Option target="apason"/>
 		</Unit>
-		<Unit filename="/Users/fiona/CLionProjects/apason/Sensors/MassFlow.h">
+		<Unit filename="C:/Users/meier/CLionProjects/apason/Sensors/MassFlow.h">
 			<Option target="apason"/>
 		</Unit>
-		<Unit filename="/Users/fiona/CLionProjects/apason/Sensors/Pressure.cpp">
+		<Unit filename="C:/Users/meier/CLionProjects/apason/Sensors/Pressure.cpp">
 			<Option target="apason"/>
 		</Unit>
-		<Unit filename="/Users/fiona/CLionProjects/apason/Sensors/Pressure.h">
+		<Unit filename="C:/Users/meier/CLionProjects/apason/Sensors/Pressure.h">
 			<Option target="apason"/>
 		</Unit>
-		<Unit filename="/Users/fiona/CLionProjects/apason/Sensors/SensorInterface.cpp">
+		<Unit filename="C:/Users/meier/CLionProjects/apason/Sensors/SensorInterface.cpp">
 			<Option target="apason"/>
 		</Unit>
-		<Unit filename="/Users/fiona/CLionProjects/apason/Sensors/SensorInterface.h">
+		<Unit filename="C:/Users/meier/CLionProjects/apason/Sensors/SensorInterface.h">
 			<Option target="apason"/>
 		</Unit>
-		<Unit filename="/Users/fiona/CLionProjects/apason/main.cpp">
+		<Unit filename="C:/Users/meier/CLionProjects/apason/main.cpp">
 			<Option target="apason"/>
 		</Unit>
-		<Unit filename="/Users/fiona/CLionProjects/apason/CMakeLists.txt">
+		<Unit filename="C:/Users/meier/CLionProjects/apason/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>

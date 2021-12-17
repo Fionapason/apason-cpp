@@ -1,23 +1,22 @@
+
+# Consider dependencies only in project.
+set(CMAKE_DEPENDS_IN_PROJECT_ONLY OFF)
+
 # The set of languages for which implicit dependencies are needed:
 set(CMAKE_DEPENDS_LANGUAGES
-  "CXX"
   )
-# The set of files for implicit dependencies of each language:
-set(CMAKE_DEPENDS_CHECK_CXX
-  "/Users/fiona/CLionProjects/apason/ApasonInterface.cpp" "/Users/fiona/CLionProjects/apason/cmake-build-debug/CMakeFiles/apason.dir/ApasonInterface.cpp.o"
-  "/Users/fiona/CLionProjects/apason/Check_Sensor_Functions.cpp" "/Users/fiona/CLionProjects/apason/cmake-build-debug/CMakeFiles/apason.dir/Check_Sensor_Functions.cpp.o"
-  "/Users/fiona/CLionProjects/apason/MockApason.cpp" "/Users/fiona/CLionProjects/apason/cmake-build-debug/CMakeFiles/apason.dir/MockApason.cpp.o"
-  "/Users/fiona/CLionProjects/apason/RealApason.cpp" "/Users/fiona/CLionProjects/apason/cmake-build-debug/CMakeFiles/apason.dir/RealApason.cpp.o"
-  "/Users/fiona/CLionProjects/apason/Sensors/ElectronicValve.cpp" "/Users/fiona/CLionProjects/apason/cmake-build-debug/CMakeFiles/apason.dir/Sensors/ElectronicValve.cpp.o"
-  "/Users/fiona/CLionProjects/apason/Sensors/MassFlow.cpp" "/Users/fiona/CLionProjects/apason/cmake-build-debug/CMakeFiles/apason.dir/Sensors/MassFlow.cpp.o"
-  "/Users/fiona/CLionProjects/apason/Sensors/Pressure.cpp" "/Users/fiona/CLionProjects/apason/cmake-build-debug/CMakeFiles/apason.dir/Sensors/Pressure.cpp.o"
-  "/Users/fiona/CLionProjects/apason/Sensors/SensorInterface.cpp" "/Users/fiona/CLionProjects/apason/cmake-build-debug/CMakeFiles/apason.dir/Sensors/SensorInterface.cpp.o"
-  "/Users/fiona/CLionProjects/apason/main.cpp" "/Users/fiona/CLionProjects/apason/cmake-build-debug/CMakeFiles/apason.dir/main.cpp.o"
-  )
-set(CMAKE_CXX_COMPILER_ID "AppleClang")
 
-# The include file search paths:
-set(CMAKE_CXX_TARGET_INCLUDE_PATH
+# The set of dependency files which are needed:
+set(CMAKE_DEPENDS_DEPENDENCY_FILES
+  "C:/Users/meier/CLionProjects/apason/ApasonInterface.cpp" "CMakeFiles/apason.dir/ApasonInterface.cpp.obj" "gcc" "CMakeFiles/apason.dir/ApasonInterface.cpp.obj.d"
+  "C:/Users/meier/CLionProjects/apason/Check_Sensor_Functions.cpp" "CMakeFiles/apason.dir/Check_Sensor_Functions.cpp.obj" "gcc" "CMakeFiles/apason.dir/Check_Sensor_Functions.cpp.obj.d"
+  "C:/Users/meier/CLionProjects/apason/MockApason.cpp" "CMakeFiles/apason.dir/MockApason.cpp.obj" "gcc" "CMakeFiles/apason.dir/MockApason.cpp.obj.d"
+  "C:/Users/meier/CLionProjects/apason/RealApason.cpp" "CMakeFiles/apason.dir/RealApason.cpp.obj" "gcc" "CMakeFiles/apason.dir/RealApason.cpp.obj.d"
+  "C:/Users/meier/CLionProjects/apason/Sensors/ElectronicValve.cpp" "CMakeFiles/apason.dir/Sensors/ElectronicValve.cpp.obj" "gcc" "CMakeFiles/apason.dir/Sensors/ElectronicValve.cpp.obj.d"
+  "C:/Users/meier/CLionProjects/apason/Sensors/MassFlow.cpp" "CMakeFiles/apason.dir/Sensors/MassFlow.cpp.obj" "gcc" "CMakeFiles/apason.dir/Sensors/MassFlow.cpp.obj.d"
+  "C:/Users/meier/CLionProjects/apason/Sensors/Pressure.cpp" "CMakeFiles/apason.dir/Sensors/Pressure.cpp.obj" "gcc" "CMakeFiles/apason.dir/Sensors/Pressure.cpp.obj.d"
+  "C:/Users/meier/CLionProjects/apason/Sensors/SensorInterface.cpp" "CMakeFiles/apason.dir/Sensors/SensorInterface.cpp.obj" "gcc" "CMakeFiles/apason.dir/Sensors/SensorInterface.cpp.obj.d"
+  "C:/Users/meier/CLionProjects/apason/main.cpp" "CMakeFiles/apason.dir/main.cpp.obj" "gcc" "CMakeFiles/apason.dir/main.cpp.obj.d"
   )
 
 # Targets to which this target links.
