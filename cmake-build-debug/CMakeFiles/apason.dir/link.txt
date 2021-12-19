@@ -1,3 +1,0 @@
-C:\Users\meier\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\213.5744.254\bin\cmake\win\bin\cmake.exe -E rm -f CMakeFiles\apason.dir/objects.a
-C:\Users\meier\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\213.5744.254\bin\mingw\bin\ar.exe qc CMakeFiles\apason.dir/objects.a @CMakeFiles\apason.dir\objects1.rsp
-C:\Users\meier\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\213.5744.254\bin\mingw\bin\g++.exe -g -Wl,--whole-archive CMakeFiles\apason.dir/objects.a -Wl,--no-whole-archive -o apason.exe -Wl,--out-implib,libapason.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\apason.dir\linklibs.rsp
