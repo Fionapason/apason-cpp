@@ -24,6 +24,7 @@ int run(ApasonInterface& apason) {
 }
 
 int main(int argc, char* argv[]) {
+    cout << "TESTING IF THIS GETS PULLED \n";
     if (argc < 3) {
         cout << "Captan, my captain. Gimme some args. \n";
         return -1;
